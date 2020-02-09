@@ -2,6 +2,8 @@
 
 # Usage Example
 
+
+
 ```xml 
     <com.mauryanlabs.wheelspinner.WheelSpinnerMasterView
         android:id="@+id/wheelSpinnerMasterView"
@@ -114,4 +116,25 @@
         wheelSpinnerMasterView.setSliceSelectedListener(listener)
     }
   ```
+
+# Screen and Demo
+
+![Example Image](https://github.com/ashutoshmaurya05/RouletteSpinnerWheel/blob/master/Screens/MainUI.png)
+![Example Video](https://github.com/ashutoshmaurya05/RouletteSpinnerWheel/blob/master/Screens/demo.mp4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Used code from repo : https://github.com/thanhniencung/LuckyWheel
+
 
