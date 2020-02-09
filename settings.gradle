@@ -1,0 +1,2 @@
+include ':app', ':wheelspinner'
+rootProject.name='Roulette Spinner Wheel'

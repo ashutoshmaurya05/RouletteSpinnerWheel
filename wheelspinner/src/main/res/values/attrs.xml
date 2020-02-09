@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WheelSpinnerAttributes">
+        <attr name="BackgroundColor" format="color" />
+        <attr name="Cursor" format="reference" />
+        <attr name="CenterImage" format="reference" />
+        <attr name="EdgeColor" format="color" />
+        <attr name="EdgeWidth" format="integer" />
+        <attr name="TopTextColor" format="color" />
+        <attr name="TopTextPadding" format="dimension" />
+        <attr name="TopTextSize" format="dimension" />
+        <attr name="SecondaryTextSize" format="dimension" />
+    </declare-styleable>
+</resources>
