@@ -46,8 +46,8 @@ class WheelSpinnerView : View {
     var downPressTime: Long = 0
     var upPressTime: Long = 0
     var newRotationStore = DoubleArray(3)
-    private var mSliceDataList: List<SliceData>? = null
-    private var mRotateListener: RotateListener? = null
+    var mSliceDataList = mutableListOf<SliceData>()
+    var mRotateListener: RotateListener? = null
 
     interface RotateListener {
         fun rotateDone(index: Int)
@@ -84,9 +84,9 @@ class WheelSpinnerView : View {
     }
 
     val sliceDataListSize: Int
-        get() = mSliceDataList!!.size
+        get() = mSliceDataList.size
 
-    fun setData(sliceDataList: List<SliceData>?) {
+    fun setData(sliceDataList: MutableList<SliceData>) {
         mSliceDataList = sliceDataList
         invalidate()
     }

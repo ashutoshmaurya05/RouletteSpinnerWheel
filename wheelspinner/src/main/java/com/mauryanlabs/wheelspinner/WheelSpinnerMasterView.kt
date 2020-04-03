@@ -153,7 +153,7 @@ class WheelSpinnerMasterView : RelativeLayout, RotateListener {
         wheelSpinnerView!!.setWheelSpinnerTextColor(color)
     }
 
-    fun setData(data: List<SliceData>?) {
+    fun setData(data: MutableList<SliceData>) {
         wheelSpinnerView!!.setData(data)
     }
 
